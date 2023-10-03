@@ -1,0 +1,8 @@
+name: word-dictionary
+replicaCount: 1
+
+autoscaling:
+  enabled: false
+
+container:
+  name: word-dictionary
