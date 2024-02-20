@@ -59,7 +59,7 @@ def server():
     word = request.args.get('word')
     if len(word) == 0:
       return jsonify({
-          "error": "Invalid word"
+        "error": "Invalid word"
       }), 404
 
     return fetch_word(word)
